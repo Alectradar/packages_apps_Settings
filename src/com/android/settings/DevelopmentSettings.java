@@ -278,6 +278,7 @@ public class DevelopmentSettings extends SettingsPreferenceFragment
     private SwitchPreference mKillAppLongpressBack;
     private ListPreference mKillAppLongpressTimeout;
 
+    private PreferenceScreen mProcessStats;
     private ListPreference mRootAccess;
     private Object mSelectedRootValue;
     private PreferenceScreen mDevelopmentTools;
