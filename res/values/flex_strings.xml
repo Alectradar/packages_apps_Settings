@@ -23,6 +23,7 @@
     <string name="flex_control_title">FlexControl</string>
     <string name="toast_notifications_category">Toast notifications</string>
     <string name="animation_central_title">Animation central</string>
+    <string name="main_recents_settings">Recents</string>
 
     <!-- General strings -->
     <string name="ok">ok</string>
