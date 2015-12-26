@@ -29,25 +29,10 @@
                 android:fragment="com.android.settings.flex.AnimationCentral"
                 android:title="@string/animation_central_title"/>
 
-        <!-- Recents -->
-        <PreferenceCategory
+        <PreferenceScreen
                 android:key="recents_settings"
-                android:title="@string/recents_settings">
-
-                <!-- Recent panel settings -->
-                <PreferenceScreen
-                        android:key="recents_panel"
-                        android:title="@string/recents_panel_title"
-                        android:fragment="com.android.settings.flex.RecentsPanelSettings"/>
-
-                <!-- Recents OmniSwitch -->
-                <PreferenceScreen
-                        android:key="omniswitch"
-                        android:id="@+id/omniswitch"
-                        android:title="@string/omniswitch_settings_title"
-                        android:fragment="com.android.settings.flex.OmniSwitch" />
-
-        </PreferenceCategory>
+                android:fragment="com.android.settings.flex.RecentsSettings"
+                android:title="@string/main_recents_settings"/>
 
         <!-- Toast Notifications -->
         <PreferenceCategory

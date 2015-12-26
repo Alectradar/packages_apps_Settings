@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
+    android:title="@string/main_recents_settings">
+
+    <PreferenceCategory
+                android:key="recents_settings"
+                android:title="@string/recents_settings">
+
+                <!-- Recent panel settings -->
+                <PreferenceScreen
+                        android:key="recents_panel"
+                        android:title="@string/recents_panel_title"
+                        android:fragment="com.android.settings.flex.RecentsPanelSettings"/>
+
+                <!-- Recents OmniSwitch -->
+                <PreferenceScreen
+                        android:key="omniswitch"
+                        android:id="@+id/omniswitch"
+                        android:title="@string/omniswitch_settings_title"
+                        android:fragment="com.android.settings.flex.OmniSwitch" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
